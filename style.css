@@ -478,6 +478,7 @@ body{
     background-color: rgb(37, 36, 36);
     align-items: center;
     justify-content: center;
+    text-align: center;
     margin-top: 15px;
     margin-bottom: 25px;
     min-height:30px;
