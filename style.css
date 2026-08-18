@@ -1,0 +1,493 @@
+*{
+    margin:0;
+    box-sizing: border-box;
+    color: white;
+}
+body{
+    background-color: #030712;
+    overflow-x: hidden;
+}
+.head{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width:100%;
+    gap: 30%;
+
+}
+.stdbranch{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 180px;
+    border: 2px solid rgb(26, 25, 25);
+    border-radius: 20px;
+    background-color: rgba(15, 18, 35, 0.75);
+    margin-top: 30px;
+    margin-left: clamp(20px,9.72vw,140px);
+}
+.stdbranch p {
+    margin-left: 5px;
+}
+.graduationcap{
+    color: rgb(114, 39, 244);
+}
+.myname{
+    height: 65px;
+    width: 100%;
+    display: flex;
+    font-size: clamp(2.2em,3.5em,3.5em);
+    margin-top: 30px;
+    margin-left: clamp(20px,9.72vw,140px);
+    font-weight: 700;
+    padding-right: 20px;
+}
+.myname1{
+    margin-left: 15px;
+    background: linear-gradient(90deg,rgb(231, 48, 231),rgb(67, 67, 228));
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    font-weight: bold;
+}
+.aspiring{
+    margin-left:clamp(20px,9.72vw, 140px);
+    width: 100%;
+    font-size: 1.25em;
+    font-weight: 600;
+    padding-right: 20px;
+
+}
+.passion{
+    color: rgb(198, 197, 197);
+    margin-left: clamp(20px,9.72vw,140px);
+    width: calc(100% - clamp(20px, 9.72vw, 140px));
+    height: 50px;
+    display: flex;
+    align-items: center;
+    margin-top: 33px;
+    font-size: 1.1em;
+    min-width: 10px;
+}
+.profilephoto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: bisque;
+    height: clamp(180px,18vw,250px);
+    width: clamp(180px,18vw,250px);
+    background-image: url("./images/profilephoto.jpeg");
+    background-size: cover;
+    background-position: center;
+}
+.first{
+    min-width: 0;
+    flex:1 1 650px;
+}
+.second{
+    margin-top: 100px;
+    min-width: 0;
+    display: flex;
+    flex: 0 1 400px;
+    justify-content: center;
+    align-items: center;
+}
+.about2{
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    background-color: rgba(15, 18, 35, 0.75);
+    margin-top: 40px;
+    height: auto;
+    min-height: 200px;
+    width: 90% ;
+    border: 2px solid rgb(26, 25, 25);
+    border-radius: 15px;
+    align-items: stretch;
+    flex-wrap: wrap;
+}
+
+.aboutlogo{
+    background: linear-gradient(90deg,rgb(231, 48, 231),rgb(67, 67, 228));
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 2em;
+    border: 2px solid rgb(114, 39, 244);
+    border-radius: 50%;
+    padding: 5.6px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+.logo{
+    flex:1 1 15%;
+    aspect-ratio: 1/1;
+    margin-top: 10px;
+    min-width: 120px;
+    border-right: 2px solid rgb(26,25,25);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#aboutme{
+    font-size: 1.6em;
+    font-weight: 800;
+    background: linear-gradient(90deg,rgb(231, 48, 231),rgb(67, 67, 228));
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#dots{
+    font-size: 1.5em;
+    font-weight: 900;
+    background: linear-gradient(90deg,rgb(231, 48, 231),rgba(15, 18, 35, 0.75));
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    text-align: center;
+    line-height: 10px;
+}
+.about2a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1 1 40%;
+    min-width: 280px;
+    border-right: 2px solid rgb(26,25,25);
+    font-size: 1.07em;
+    padding: 20px;
+}
+.about2a p {
+    color: rgb(198, 197, 197);
+    padding: clamp(15px,2.8vw,40px);
+}
+.personalinfo {
+    flex:1 1 35%;
+    min-width: 280px;
+    box-sizing: border-box;
+    padding: 20px;
+    overflow: hidden;
+}
+
+.about2a {
+    width: 35%;
+    box-sizing: border-box;
+}
+
+.personalinfo {
+    width: 65%;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+.about2a {
+    width: 50%;
+    padding: 20px;
+}
+
+.personalinfo {
+    width: 50%;
+    padding: 20px;
+}
+.personalinfo pre {
+    font-size: clamp(0.85em,1.08vw,1.08em);
+    color: rgb(198, 197, 197);
+    white-space: pre-wrap;
+    overflow-wrap: anywhere;
+}
+.logos{
+    color: rgb(198, 197, 197);
+}
+.myskills{
+    text-align: center;
+    margin-top: 40px;
+    font-size: 40px;
+    font-weight: 800;
+    background: linear-gradient(90deg,rgb(231, 48, 231),rgb(67, 67, 228));
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    text-decoration: underline;
+    text-decoration-color: rgb(170, 143, 232);
+}
+.skills{
+    background-color: rgba(15, 18, 35, 0.75);
+    margin-top:30px;
+    width: 90%;
+    min-height: 240px;
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid rgb(26, 25, 25);
+    border-radius: 20px;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+}
+
+.sub{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 180px;
+    flex:1 1 110px;
+    max-width: 150px;;
+    font-size: 60px;
+    border: 2.5px solid rgb(37, 36, 36);
+    border-radius: 20px;
+    background-color: rgba(20, 24, 46, 0.75);
+    padding: 15px;
+}
+.sub p {
+    font-size: 20px;
+    margin-top: 10px;
+    text-align: center;
+}
+.img{
+    min-height: 120px;
+    min-width: 100px;
+    height: auto;
+    width: auto;
+    flex-shrink: 0;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.c{
+    background-image: url("./images/c.jpg");
+    background-size: cover;
+}
+.cpp{
+    background-image: url("./images/cpp.jpg");
+    background-size: cover;
+}
+.html{
+    background-image: url("./images/html.jpg");
+    background-size: cover;
+}
+.css{
+    background-image: url("./images/css.jpg");
+    background-size: cover;
+}
+.js{
+    background-image: url("./images/js.jpg");
+    background-size: cover;
+}
+.python{
+    background-image: url("./images/python.jpg");
+    background-size: cover;
+}
+.msoffice{
+    background-image: url("./images/msoffice.jpg");
+    background-size: cover;
+}
+.myprojects{
+    text-align: center;
+    margin-top: 40px;
+    font-size: 40px;
+    font-weight: 800;
+    background: linear-gradient(90deg,rgb(231, 48, 231),rgb(67, 67, 228));
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    text-decoration: underline;
+    text-decoration-color: rgb(170, 143, 232);
+}
+.projects{
+    background-color: rgba(15, 18, 35, 0.75);
+    margin-top:30px;
+    width: 90%;
+    min-height: 400px;
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid rgb(26, 25, 25);
+    border-radius: 20px;
+    flex-wrap: wrap;
+    padding: 20px;
+    gap: 20px;
+}
+.proj{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 360px;
+    height: auto;
+    max-width: 450px;
+    flex:1 1 300px;
+    font-size: 60px;
+    border: 2.5px solid rgb(37, 36, 36);
+    border-radius: 20px;
+    background-color: rgba(20, 24, 46, 0.75);
+    padding: 15px;
+}
+.image{
+    width: 90%;
+    height: 50%;
+    min-height: 150px;
+    border-radius: 20px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.weather{
+    background-image: url("./images/weather.jpg");
+    background-size: cover;
+}
+.cityatlas{
+    background-image: url("./images/cityatlas.jpeg");
+    background-size: cover;
+}
+.personalportfolio{
+    background-image: url("./images/personalportfolio.jpeg");
+    background-size: cover;
+}
+.t1{
+    margin-top: 7px;
+    font-size: 22px;
+    font-weight: 700;
+    text-align: center;
+}
+.t2{
+    color: rgb(198, 197, 197);
+    font-size: 16px;
+    margin: 10px;
+    text-align: center;
+}
+.viewproject{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    height: 10%;
+    min-height: 40px;;
+    width: 40%;
+    min-width: 130px;
+    font-size: 16px;
+    border: 2.5px solid rgb(52, 51, 51);
+    border-radius: 20px;
+    background-color: rgba(23, 30, 71, 0.75);
+}
+.viewproject a {
+    text-decoration: none;
+}
+.linksign{
+    font-weight:100;
+    font-size: 12px;
+    margin-left: 3px;
+}
+.bottomsec{
+    font-size: 1.5em;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    min-width: 400px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    min-height: 400px;
+}
+.bottom{
+    height: auto;
+    min-height: 200px;
+    width: 50%;
+    margin:auto;
+    max-width: 400px;
+    border: 2.5px solid rgb(37, 36, 36);
+    border-radius: 20px;
+    background-color: rgba(20, 24, 46, 0.75);
+    gap: 10px;
+    flex: 1 1 300px;
+    margin: 20px;
+}
+.bottomlogo{
+    font-size: 30px;
+    color: rgb(181,82,231);
+    margin-bottom: 15px;
+}
+.bottombox{
+    margin-top: 15px;
+    margin-right: auto;
+    margin-left: 25px;
+    min-height: 446px;
+}
+.bottombox pre{
+    white-space: pre-wrap;
+    overflow-wrap: anywhere;
+}
+.bh1{
+    background: linear-gradient(90deg,rgb(181, 82, 231),rgb(103, 188, 241));
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 25px;
+    font-weight: 800;
+}
+.bottomhead{
+    font-size: 30px;
+    font-weight: 800;
+    color: white;
+}
+.bottomdata{
+    color: rgb(198, 197, 197);
+}
+.bimg{
+    flex:1 1 250px;
+    min-height: 100px;
+    width: 90%;
+    border-radius: 20px;
+    border: 2.5px solid rgb(37, 36, 36);
+}
+.cer1{
+    background-image: url("./images/cer1.jpg");
+    background-size: cover;
+}
+.cer2{
+    background-image: url("./images/cer2.jpg");
+    background-size: cover;
+}
+.cer3{
+    background-image: url("./images/cer3.webp");
+    background-size: cover;
+}
+.hobbies{
+    line-height:75px;
+}
+.hob{
+    margin-left: 8px;
+}
+.footer{
+    display: flex;
+    background-color: rgb(37, 36, 36);
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+    margin-bottom: 25px;
+    min-height:30px;
+    height: auto;
+    width: 100%;
+}
+.footer pre{
+    font-size: 15px;
+    white-space: pre-wrap;
+    overflow-wrap: anywhere;
+    margin-left: 8%;
+    margin-right: 8%;
+}
