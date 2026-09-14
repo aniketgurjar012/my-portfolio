@@ -139,6 +139,10 @@ p {
     border: 2px solid #000000;
 }
 
+.photo img:hover {
+    border-color: #f59e0b;
+}
+
 
 .section {
     padding: 70px 8%;
@@ -202,6 +206,10 @@ p {
     color: #cbd5e1;
 }
 
+.skills li:hover {
+    border-color: #f59e0b;
+}
+
 .skill li i {
     font-size: 18px;
     margin-left: 5px;
@@ -224,6 +232,9 @@ p {
     border-radius: 8px;
 }
 
+.project:hover {
+    border-color: #f59e0b;
+}
 .project h3 {
     margin-bottom: 10px;
     font-size: 24px;
@@ -293,6 +304,10 @@ p {
     background: #1e293b;
     border: 1px solid #334155;
     border-radius: 8px;
+}
+
+.certificate:hover {
+    border-color: #f59e0b;
 }
 
 .certificate h3 {
