@@ -1,204 +1,265 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
+    <title>Aniket Gurjar - Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    <link href="images">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.0/css/all.min.css" integrity="sha512-ApSLB1Pd3/bZN8fWB/RG9YhN/7bd9Hkf3AGaE2mPfebjrxagjuBtx2GcgdqIlJkUzwylBo61r9Xa9NmgBI0swA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-    <div class="head">
-        <div class="first">
-            <div class="stdbranch">
-                <i class="fa-solid fa-graduation-cap graduationcap"></i>
-                <p>M.Tech Student</p>
+    <header class="head">
+        <a class="logo" href="#home">Aniket Gurjar</a>
+        <nav class="nav">
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#education">Education</a>
+            <a href="#certificates">Certificates</a>
+            <a href="#hobbies">Hobbies</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero" id="home">
+            <div class="intro">
+                <p class="small">Hi i'm</p>
+                <h1>Aniket Gurjar
+                </h1>
+                <p>
+                    I'm an IT student with a passion for technology and computers. I enjoy learning about new technologies and exploring how things work. I'm always eager to learn, grow, and take on new challenges.
+                </p>
+                <div class="buttons">
+                    <a class="button" href="#projects">My Projects</a>
+                    <a class="link" href="#contact">Contact me</a>
+                </div>
             </div>
-            <div class="about1">
-                <div class="myname">
-                    <div class="im">
-                        Hi, I'm
+            <div class="photo">
+                <img src="images/myphoto.jpeg" alt="My Photo">
+            </div>
+        </section>
+        <section class="section" id="about">
+            <div class="title">
+                <h2>About</h2>
+                <p>A little about me and what I like to be.</p>
+            </div>
+            <div class="about">
+                <div class="abouttext">
+                    <p>My name is Aniket Gurjar. I am currently pursuing my Bachelor of Technology in Information Technology (IT). I am improving my technical knowledge and learning different IT concepts. I enjoy working on small projects and applying what I learn in practical ways. I am curious to explore new tools, technologies, and ideas. My goal is to continuously improve my skills and build a successful career in the IT field.
+                    </p>
+                </div>
+                <div class="aboutinfo">
+                    <p><b>Name:</b> Aniket Gurjar</p>
+                    <p><b>Age:</b> 19 yr</p>
+                    <p><b>Course:</b> IT</p>
+                    <p><b>Semester:</b> 3rd</p>
+                    <p><b>College:</b> International Institute of Professional Studies, DAVV, Indore.</p>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="section grey" id="skills">
+            <div class="title">
+                <h2>Skills</h2>
+                <p>Tools and languages I use while building projects.</p>
+            </div>
+            <div class="skills">
+                <div class="skill">
+                    <h3>Languages</h3>
+                    <ul>
+                        <li><i class="fa-brands fa-js"></i> JavaScript</li>
+                        <li><i class="fa-brands fa-python"></i> Python</li>
+                        <li><i class="fa-solid fa-c"></i> C</li>
+                        <li><i class="fa-solid fa-code"></i> C++</li>
+                    </ul>
+                </div>
+                <div class="skill">
+                    <h3>Frontend</h3>
+                    <ul>
+                        <li><i class="fa-brands fa-html5"></i> HTML5 & CSS3</li>
+                        <li><i class="fa-brands fa-react"></i> React</li>
+                    </ul>
+                </div>
+                <div class="skill">
+                    <h3>Backend</h3>
+                    <ul>
+                        <li><i class="fa-brands fa-node-js"></i> Node.js</li>
+                        <li><i class="fa-solid fa-server"></i> Express</li>
+                        <li><i class="fa-solid fa-database"></i> MongoDB</li>
+                        <li><i class="fa-brands fa-github"></i> Git & GitHub</li>
+                    </ul>
+                </div>
+                <div class="skill">
+                    <h3>Currently Learning</h3>
+                    <ul>
+                        <li><i class="fa-brands fa-java"></i> JAVA</li>
+                        <li><i class="fa-solid fa-diagram-project"></i> System Design</li>
+                        <li><i class="fa-solid fa-code"></i> TypeScript</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="section" id="projects">
+            <div class="title">
+                <h2>Projects</h2>
+                <p>A few things I've built and worked on.</p>
+            </div>
+            <div class="projects">
+                <div class="project">
+                    <div>
+                        <h3>Weather Website</h3>
+                        <p>A real-time weather website that shows the current weather of a selected location along with a 7-day forecast. It also provides useful details like humidity, wind speed, precipitation chances and other weather information.
+                        </p>
                     </div>
-                    <div class="myname1">
-                        Aniket
+                    <div class="projectlink">
+                        <a href="#">Live Demo</a>
+                        <img src="images/weather.png" alt="Weather Website">
                     </div>
                 </div>
-
-                <div class="aspiring">
-                    Aspiring Software Engineer
+                <div class="project">
+                    <div>
+                        <h3>City Information System</h3>
+                        <p>A web-based system where users can explore information about any city, including its history, weather, famous places, famous food, location on the map and other useful details about the city.</p>
+                    </div>
+                    <div class="projectlink">
+                        <a href="#">Live Demo</a>
+                        <img src="images/cityinfo.png" alt="City Information System">
+                    </div>
                 </div>
-
-                <div class="passion">
-                    I'm an IT student with a passion for technology and computers.<br>
-                    I enjoy learning about new technologies and exploring how things work.<br>
-                    I'm always eager to learn, grow, and take on new challenges.<br>
-                </div>
-            </div>
-        </div>
-        <div class="second">
-            <div class="profilephoto"></div>
-        </div>
-    </div>
-    <div class="about2">
-        <div class="logo">
-            <i class="fa-solid fa-user aboutlogo"></i>
-            <P id="aboutme">ABOUT<BR>
-            ME</P>
-            <Pre id="dots">
-.  .  .  .  .<br>
-.  .  .  .  .<br>
-.  .  .  .  .
-            </Pre>
-        </div>
-        <div class="about2a">
-            <p>My name is Aniket Gurjar. I am currently pursuing my Bachelor of Technology in Information Technology (IT). Currently, I am improving my technical knowledge and learning various IT concepts. I ennjoy working on small projects and applying what I learn in practical ways. I am curious to explore new tools, technologies, and ideas. My goal is continuouslly improve my skills and build a successful career in the IT field.
-            </p>
-        </div>
-        <div class="personalinfo">
-            <pre>
-<i class="fa-regular fa-user logos"></i> Name    : Aniket Gurjar
-
-<i class="fa-solid fa-cake-candles logos"></i> Age     : 19 yr
-
-<i class="fa-regular fa-envelope logos"></i> Course  : IT
-
-<i class="fa-solid fa-graduation-cap logos"></i> Semester: 3<sup>rd</sup>
-
-<i class="fa-solid fa-building-columns logos"></i> College : International Institute of Professional Studies,DAVV,Indore.
-            </pre>
-        </div>
-    </div>
-    <div class="myskills">
-        MY SKILLS
-    </div>
-    <div class="skills">
-        <div class="sub">
-            <div class="img c">
-            </div>
-            <p>C Language</p>
-        </div>
-        <div class="sub">
-            <div class="img cpp">
-
-            </div>
-            <p>C++</p>
-        </div>
-        <div class="sub">
-            <div class="img html"></div>
-            <P>HTML</P>
-        </div>
-        <div class="sub">
-            <div class="img css"></div>
-            <P>CSS</P>
-        </div>
-        <div class="sub">
-             <div class="img js"></div>
-            <P>JavaScript</P>
-        </div>
-        <div class="sub">
-            <div class="img python"></div>
-            <p>Python</p>
-        </div>
-        <div class="sub">
-            <div class="img msoffice"></div>
-            <P>MS Office</P>
-        </div>
-    </div>
-    <div class="myprojects">
-        MY PROJECTS
-    </div>
-    <div class="projects">
-        <div class="proj">
-            <div class="image weather">
-            </div>
-            <p class="t1">Weather Website</p>
-            <p class="t2">A responsive weather websitee that shows real-time weather information using HTML, CSS and API.</p>
-           <div class="viewproject">
-                <a href="https://aniketgurjar012.github.io/weather-website1/" target="_blank">View Project</a><i class="fa-solid fa-up-right-from-square linksign"></i>
-            </div>
-        </div>
-        <div class="proj">
-            <div class="image cityatlas">
-            </div>
-            <p class="t1">City Information System</p>
-            <p class="t2">City Information System that lets users expore any city weather, history, places, food, map and many more.</p>
-            <div class="viewproject">
-                <a href="https://aniketgurjar012.github.io/CITY-INFORMATION-SYSTEM/" target="_blank">View Project</a><i class="fa-solid fa-up-right-from-square linksign"></i>
-            </div>
-        </div>
-        <div class="proj">
-            <div class="image personalportfolio"></div>
-            <P class="t1">Personal Portfolio</P>
-            <p class="t2">This is my Personal Portfolio website created using HTML and CSS to showcase my skills and projects.</p>
-            <div class="viewproject">
-                <a href="#">View Project</a> <i class="fa-solid fa-up-right-from-square linksign"></i>
-            </div>
-        </div>
-    </div>
-    <div class="bottomsec">
-        <div class="bottom ">
-            <div class="bottombox">
-            <i class="fa-solid fa-graduation-cap bottomlogo"></i>
-            <span class="bottomhead">EDUCATION</span>
-            <div>
-                <span class="bh1">2023</span><br>
-                <pre class="bottomdata">
-10th (CBSE)
-The Foundation of Education School, Harda
-                </pre>
-            </div>
-            <div>
-            <span class="bh1">2025</span><br>
-                <pre class="bottomdata">
-12th (CBSE)
-The Foundation of Education School, Harda
-                </pre>
-            </div>
-            <div>
-            <span class="bh1">2025-Present</span><br>
-                <pre class="bottomdata">
-B.Tech + M.Tech Intgrated Course (IT)
-International Institute of Professional Studies,DAVV,Indore
-                </pre>
-            </div>
-            </div>
-        </div>
-        <div class="bottom">
-            <div class="bottombox">
-            <i class="fa-solid fa-award bottomlogo"></i>
-            <span class="bottomhead">CERTIFICATES</span>
-            <div>
-                <span class="bh1">HTML Certificate</span><br>
-                <div class="bimg cer1"></div>
-            </div>
-            <div>
-            <span class="bh1">CSS Certificate</span><br>
-            <div class="bimg cer2"></div>
-            </div>
-            <div>
-            <span class="bh1">JS Certificate</span><br>
-            <div class="bimg cer3"></div>
-            </div>
-            </div>
-        </div>
-        <div class="bottom">
-            <div class="bottombox">
-                <i class="fa-solid fa-heart bottomlogo"></i>
-                <span class="bottomhead">HOBBIES</span>
-                <div class="hobbies">
-                    <i class="fa-solid fa-code bh1"></i><span class="bottomdata hob">Coding</span><br>
-                    <i class="fa-solid fa-gamepad bh1"></i><span class="bottomdata hob">Gaming</span><br>
-                    <i class="fa-solid fa-music bh1"></i><span class="bottomdata hob">Listening Music</span><br>
-                    <i class="fa-solid fa-film bh1"></i><span class="bottomdata hob">Watching Movies</span><br>
-                    <i class="fa-solid fa-plane-departure bh1"></i><span class="bottomdata hob">Travelling</span><br>
+                <div class="project">
+                    <div>
+                        <h3>BhavSetu</h3>
+                        <p>A smart market platform for farmers that provides live mandi rates, nearby warehouses and storage options, weather information and better selling opportunities. Farmers can connect with buyers, buy or sell crops, use AI-based image grading and interact through a digital bargaining system.</p>
+                    </div>
+                    <div class="projectlink">
+                        <a href="#">Live Demo</a>
+                        <img src="images/bhavsetu.png" alt="BhavSetu">
+                    </div>
                 </div>
             </div>
-        </div>
-    </div>
-    <div class="footer">
-        <pre>&copy; 2026 Aniket. All Rights Reserved. Thank You for Visiting My Portfolio <i class="fa-solid fa-heart"></i></pre>
-    </div>
+        </section>
+
+        <section class="section grey" id="education">
+            <div class="title">
+                <h2>Education</h2>
+                <p>Where I've studied so far.</p>
+            </div>
+            <div class="education">
+                <div class="study">
+                    <p class="year">2025 - Present</p>
+                    <div>
+                        <h3>B.Tech + M.Tech (Integrated), Information Techhnology</h3>
+                        <p>International Institute of Professional Studies, DAVV, Indore · CGPA 8.76</p>
+                    </div>
+                </div>
+                <div class="study">
+                    <p class="year">2025</p>
+                    <div>
+                        <h3>Higher Secondary Education (CBSE - PCM)</h3>
+                        <p>The Foundation of Education, Harda · 74.4%</p>
+                    </div>
+                </div>
+                <div class="study">
+                    <p class="year">2023</p>
+                    <div>
+                        <h3>Secondary Education (CBSE)</h3>
+                        <p>The Foundation of Education, Harda · 84.6%</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="certificates">
+            <div class="title">
+                <h2>Certificates</h2>
+                <p>Courses and programs I've completed.</p>
+            </div>
+            <div class="certificates">
+                <div class="certificate">
+                    <h3>Deloitte Data Analytics Job Simulation</h3>
+                    <p>Deloitte · March 2026</p>
+                    <a href="images/deloitte certificate.jpeg" target="_blank">View Certificate</a>
+                </div>
+                <div class="certificate">
+                    <h3>Introduction to Generative AI</h3>
+                    <p>Google Cloud · March 2026</p>
+                    <a href="images/google cloud certificate.jpeg" target="_blank">View Certificate</a>
+                </div>
+                <div class="certificate">
+                    <h3>Generative AI Essentials</h3>
+                    <p>TCS iON · June 2026</p>
+                    <a href="images/tcs certificate.jpeg" target="_blank">View Certificate</a>
+                </div>
+                <div class="certificate">
+                    <h3>Smart India Hackathon - Participant</h3>
+                    <p>DAVV · 2026</p>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="section grey" id="hobbies">
+            <div class="title">
+                <h2>Hobbies</h2>
+                <p>What I do when I'm free.</p>
+            </div>
+            <div class="hobbies">
+                <div class="hobby">
+                    <h3>Gaming</h3>
+                    <p>Exploring different games and improving strategic thinking.</p>
+                </div>
+                <div class="hobby">
+                    <h3>Listening Music</h3>
+                    <p>Exploring different genres and discovering new music.</p>
+                </div>
+                <div class="hobby">
+                    <h3>Watching Movies</h3>
+                    <p>Exploring different stories, genres, and filmmaking styles.</p>
+                </div>
+                <div class="hobby">
+                    <h3>Travelling</h3>
+                    <p>Exploring new places, cultures, and experiences.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="contact">
+            <div class="title">
+                <h2>Contact</h2>
+                <p>Open to internships, freelance work, or just a good conversation about code.
+                </p>
+            </div>
+            <div class="contact">
+                <a href="aniketgurjar012@gmail.com">
+                    <span>Email</span>
+                    aniketgurjar012@gmail.com
+                </a>
+                <a href="mobile:+91 9174268110">
+                    <span>Phone</span>
+                    +91 9174268110
+                </a>
+                <a href="#">
+                    <span>LinkedIn</span>
+                    linkedin.com/in/adityasharma
+                </a>
+                <a href="#">
+                    <span>GitHub</span>
+                    github.com/adityasharma
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="foot">
+        <p>Designed & built by Aditya Sharma.</p>
+    </footer>
 </body>
-<script src="portfolio.js"></script>
 </html>
